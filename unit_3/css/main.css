@@ -1,0 +1,62 @@
+/*line-height
+margin
+padding
+border*/
+
+body{
+font-family: Helvetica, sans-serif;
+text-align: center;
+/*Other attempt at getting the background to be the stretched picture but no luck
+Follow up with mentor re how to tag a local image like this*/
+/*background-size: contain;
+background: url(images/bouncing_dog_field.jpeg);*/
+/*background: url("images/bouncing_dog_field");
+background-size: cover;*/
+background-color: #17E6F0;
+color: #021621;
+padding-left: 50px;
+padding-right: 50px;
+
+}
+
+/*Tried to get the below to work to stretch across the page by giving it an id but didn't work*/
+/*#img.source-image {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;*/
+}
+
+h1 {
+font-size: 36px;
+text-decoration: underline;
+
+}
+
+p {
+font-size: 20px;
+line-height: 25px;
+}
+
+#slogan {
+font-family: Helvetica, sans-serif;
+font-style: italic;
+font-size: 24px;
+}
+
+h3 {
+font-size: 20px;
+padding-left: 220px;
+}
+
+ul{
+/*list-style-type: none;*/
+font-size: 20px;
+text-align: left;
+padding-left: 150px
+}
+div {
+    background: ref(images/proud_dog_field.jpeg);
+    background-size: 80px 60px;
+    background-repeat: no-repeat;
+}
