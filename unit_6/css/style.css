@@ -1,0 +1,145 @@
+body{
+	background-color: #eee;
+}
+
+header {
+	margin-top: 0;
+	padding-bottom: 40px;
+	
+}
+
+header nav a {
+	/*margin:10px;*/
+	padding: 10px 5px;
+	margin-top: 5px;
+	margin-bottom: 30px;
+	width:180px; 
+	text-align: center;
+	float: left;
+	/*background-color: #fff;*/
+	color: #333;
+	display:block;
+	text-decoration: none;
+
+} 	
+
+h1 {
+	font-family: 'Sorts Mill Goudy', serif;
+	font-size: 36px;
+	line-height: 40px;
+	text-align: right;
+	/*background-color: #fff;*/
+	padding-top:0px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	float:right;
+}
+
+h2 {
+	font-size: 36px;
+	font-family: "Sorts Mill Goudy", Arial, serif;
+	font-weight:900;
+	color: #333;
+	line-height: 50px;
+	margin-bottom: 10px;
+}
+
+
+.header {
+	/*clear:both;*/
+	margin-bottom:5px;
+	margin-top: 10px;
+	font-family: 'Droid Sans', Helvetica, sans-serif;
+	font-weight:500;
+	font-size:18px;
+	text-decoration: none;
+}
+
+.header nav a:hover{
+	background-color: #FA6B07;
+	color:#fff;
+}
+
+.tiles img {
+	width:26%;
+	padding: 0 3%;
+	border: 1px solid #888	;
+	background-color: #fff;
+	display:inline-block;
+
+}
+
+img:hover {
+      opacity:0.4;
+      /*color:#FA6B07;*/
+    }
+
+.tiles{
+	clear:both;
+	font-family: 'Droid Sans', Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+#wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+footer {
+	clear:both;
+	text-align: center;
+	padding: 20px;
+	margin:0 5px;
+}
+
+footer img {
+	margin: 0 5px;
+}
+
+#top {
+	padding-top: 20px;
+
+}
+
+#photobooth {
+	width: 90%;
+	padding: 2% 3%;
+	border: 1px solid #888	;
+	margin-top: 36px;
+	background-color: #fff;
+	overflow: auto;
+
+}
+
+#photobooth img {
+	width:30%;
+	float: left;
+}
+
+p {
+	font-family: 'Droid Sans', Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+#brunch {
+	clear:both;
+	width: 90%;
+	padding: 2% 3%;
+	border: 1px solid #888	;
+	margin-top: 36px;
+	background-color: #fff;
+	overflow: auto;
+}
+
+#brunch img {
+	width:30%;
+	float:right;
+	margin-left: 10px;
+	padding-left: 10px;
+}
+
+article a{
+text-decoration: none;
+color: #dd0000;
+}

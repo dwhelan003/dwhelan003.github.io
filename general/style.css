@@ -1,0 +1,63 @@
+body {
+	background-image: url("../images/background.jpg");
+}
+
+header {
+	padding: 20px;
+	text-align: center;
+}
+
+/*#logo {
+	display: block;
+	margin: 20px auto;
+}*/
+
+article {
+	width: 700px;
+	background-color: #ffffff;
+	padding: 20px;
+}
+
+article img {
+	width: 700px;
+}
+
+.articles {
+	width: 740px;
+	float: left;
+}
+
+.main {
+	width: 1020px;
+	margin: 0 auto;
+}
+
+aside {
+	width: 220px;
+	background-color: #ffffff;
+	padding: 20px;
+	float: right;
+}
+
+aside ul {
+	list-style-type: none;
+}
+
+aside img {
+	margin: 10px 0;
+}
+
+footer {
+	text-align: center;
+	padding: 20px;
+	clear: both;
+}
+
+footer img {
+	margin: 0 5px;
+}
+
+
+
+
+
